@@ -1,0 +1,72 @@
+    Convert ==> HTML+CSS +Bootstrap to react
+
+    # set bootstrap to react 
+        copy CDN link and paste in html  
+    # remove App.css 
+    # clean index.css
+    # copy all images in public folder
+    # background images need to copy in src folder
+    # copy css in src folder
+    # copy html code to component
+    # change class to className
+    # change label for attribute to htmlFor
+
+Traditional Web application
+    # for very new page , entire code is reloaded i.e requesting from serve
+    https://getbootstrap.com/
+
+Single Page Application
+    React Application 
+    # only a portion of a page is change by javascript
+    # achieve a single page application with browser history
+    # we need a package 
+        called as react-router-dom (v6) ==> 6.9
+
+            components
+                **BrowserRouter ==> set/enable  a routing in application 
+                **Routes ==> Collect Route
+                **Route ==> set routing per as per component
+                **Link ==> a(href="#")
+                    <Link to="/search">Quick Searches</Link>
+                NavLink
+                Outlet
+                *Navigate ==> redirecting
+
+            hooks
+                *useParams ==> read dynamic url url /:city /:location
+                *useNavigate ==> to navigate form javascript
+                useParamsString
+
+
+# Who to call a server data
+    fetch ==> 
+    axios ==>
+        axios.get()
+        axios.put()
+        axios.post()
+        axios.delete()
+
+# complete home page API
+# filter/search page
+
+==> JWT ==> JSON Web Token
+    create --> jwttoken
+    read token data ==> jwt-decode
+
+    header.
+    payload. ==> data user
+    signature
+
+header 
+    eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMjgzOGMxYzhiZjllZGNmMWY1MDUwNjYyZTU0YmNiMWFkYjViNWYiLCJ0eXAiOiJKV1QifQ.
+
+payload  (jwt-decode)  
+    eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2ODQ1ODU1MzgsImF1ZCI6Ijg2MjQ1NTExMDY2MC1sM3M0bGc1YXBrbnM3Mzlnc3M0ZWxoaG11czlsMTBycC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjI1NjcyNTY2MTk1NzQ5NDMwOCIsImVtYWlsIjoiZGVlcGFra3VtYXIuc2hpbmRlMEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiODYyNDU1MTEwNjYwLWwzczRsZzVhcGtuczczOWdzczRlbGhobXVzOWwxMHJwLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6IkRlZXBhayBTaGluZGUiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUdObXl4YkhZamdyeVh6Y2dzdkZNTjZGOFFYZDBsa0taZ3dHaldTb2RpUnZyUT1zOTYtYyIsImdpdmVuX25hbWUiOiJEZWVwYWsiLCJmYW1pbHlfbmFtZSI6IlNoaW5kZSIsImlhdCI6MTY4NDU4NTgzOCwiZXhwIjoxNjg0NTg5NDM4LCJqdGkiOiIwMDFjYThkYzk5NjAzOGFiYTg2NWEwZDcyMDRiMDRlNGZiNWJmZTllIn0.
+
+signature    
+    DpwPLIyNXcghZeMaEgDWxRU52o-tR6zNO-LVPbkSbIB_eaTVnXhPCvRwwdLnAW-32gcdamWATbjG0iCkPh_c57S8Wz5Xid8MIv8kDWZ214WuRIfkoMXphYx62HXnyK7ehAqG-3xotls2wOTgIdJVmHQSocCcUg5XWrLnPPT0jyGTrES_PeEH-RfxgGZu2baNWnfzvi0Rs2ebc-epUiWh4MB_f9bKxVlEie9kB_reDPXZjun-kfKLuzlhabs68V5fN1e6Psf2WMjNrxWeofikNj15uwWpN8Aau_QNM2A0fNtMCAWylkRTHMPZYCzjR_eEMz1dnPTDQti-JGJv1-hV2Q
+
+
+shared hosting ==> linux cloud
+vps
+cloud ==> digital 
